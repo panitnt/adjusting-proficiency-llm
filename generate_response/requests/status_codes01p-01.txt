@@ -1,0 +1,24 @@
+I will extract the generator expressions from the provided Python file. Let's start by loading and analyzing the file.
+
+Here is the process to extract the requested elements:
+
+1. Read the content of the file.
+2. Identify and extract the generator expressions from the content.
+3. Provide the extracted generator expressions as the output.
+
+Let's begin:
+
+First, I will read the content of the file.
+
+The initial content provides a glimpse into the file structure and its components. To extract generator expressions from the entire file, I will search for patterns typically associated with generator expressions.
+
+Let's continue to extract the generator expressions.
+
+It appears I forgot to import the necessary library for data manipulation. Let me correct that and proceed with displaying the generator expressions.
+
+Here are the generator expressions extracted from the provided Python file:
+
+1. `names = ", ".join(f"``{n}``" for n in _codes[code])`
+2. `__doc__ + "\\n" + "\\n".join(doc(code) for code in sorted(_codes))`
+
+If you need further assistance or additional code elements extracted, please let me know!

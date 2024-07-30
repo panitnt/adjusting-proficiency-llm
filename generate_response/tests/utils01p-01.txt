@@ -1,0 +1,5 @@
+The code contains one generator function that uses `yield`. Here is the relevant line:
+
+- `yield`
+
+Would you like any additional details or further assistance with this file?

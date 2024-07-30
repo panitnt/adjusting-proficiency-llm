@@ -1,0 +1,7 @@
+The file contains an import statement for the `importlib` module. Here is the relevant line extracted:
+
+```
+import importlib
+```
+
+Is there anything else you would like to extract from this file?

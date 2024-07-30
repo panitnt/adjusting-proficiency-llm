@@ -1,0 +1,78 @@
+Repository,File Name,Class,Start Line,End Line,Displacement,Level,Source File
+tests,conftest.py,Generator Function (yield),57,57,8,C1,p.csv
+tests,test_requests.py,List Comprehension with 1If statements,1023,1027,26,C1,p.csv
+tests,test_requests.py,Generator Expression,2374,2374,26,C1,p.csv
+tests,test_requests.py,Import'pickle' module,8,8,0,C1,p.csv
+tests,test_requests.py,Import're' module,9,9,0,C1,p.csv
+tests,utils.py,Generator Function (yield),14,14,8,C1,p.csv
+requests,auth.py,Import're' module,10,10,0,C1,p.csv
+requests,compat.py,Import'importlib' module,10,10,0,C1,p.csv
+requests,models.py,Generator Function (yield),904,904,16,C1,p.csv
+requests,models.py,Generator Function (yield),848,848,24,C1,p.csv
+requests,_internal_utils.py,Generator Expression,13,13,52,C1,p.csv
+requests,_internal_utils.py,Generator Expression,18,18,51,C1,p.csv
+requests,_internal_utils.py,Generator Expression,23,23,52,C1,p.csv
+requests,_internal_utils.py,Generator Expression,28,28,51,C1,p.csv
+requests,utils.py,Import're' module,13,13,0,C1,p.csv
+requests,utils.py,Import'struct' module,15,15,0,C1,p.csv
+tests,test_utils.py,Simple Dictionary Comprehension,777,777,14,C1,original
+tests,conftest.py,Generator Function (yield),55,55,4,C1,original
+testserver,server.py,Super Function,38,38,8,C2,original
+testserver,server.py,Super Function,152,152,8,C2,original
+tests,test_requests.py,Simple List Comprehension,472,472,15,C1,original
+tests,test_requests.py,Simple List Comprehension,473,473,19,C1,original
+tests,test_requests.py,List Comprehension with 1If statements,1010,1014,26,C1,original
+tests,test_requests.py,Generator Expression,2184,2184,15,C1,original
+tests,test_requests.py,Generator Expression,1016,1016,33,C1,original
+tests,test_requests.py,Generator Expression,1412,1412,18,C1,original
+tests,test_requests.py,Generator Expression,1419,1419,18,C1,original
+tests,test_requests.py,Generator Expression,1449,1449,18,C1,original
+tests,test_requests.py,Generator Expression,2344,2344,26,C1,original
+tests,test_requests.py,Generator Expression,328,328,61,C1,original
+tests,test_requests.py,Generator Expression,2356,2356,24,C1,original
+tests,test_requests.py,Generator Expression,2370,2370,24,C1,original
+tests,test_requests.py,Import'pickle' module,8,8,0,C1,original
+tests,test_requests.py,Import're' module,9,9,0,C1,original
+tests,utils.py,Generator Function (yield),14,14,8,C1,original
+tests,test_lowlevel.py,Simple List Comprehension,286,286,17,C1,original
+requests,cookies.py,Super Function,356,356,15,C2,original
+requests,cookies.py,Super Function,323,323,19,C2,original
+requests,cookies.py,Super Function,364,364,12,C2,original
+requests,cookies.py,Simple List Comprehension,534,534,25,C1,original
+requests,cookies.py,Generator Function (yield),232,232,12,C1,original
+requests,cookies.py,Generator Function (yield),249,249,12,C1,original
+requests,cookies.py,Generator Function (yield),266,266,12,C1,original
+requests,auth.py,Import're' module,10,10,0,C1,original
+requests,sessions.py,List Comprehension with 1If statements,84,84,16,C1,original
+requests,sessions.py,List Comprehension with 1If statements,805,805,23,C1,original
+requests,sessions.py,Simple List Comprehension,724,724,22,C1,original
+requests,sessions.py,Simple Dictionary Comprehension,811,811,16,C1,original
+requests,sessions.py,Generator Function (yield),263,263,16,C1,original
+requests,sessions.py,Generator Function (yield),280,280,16,C1,original
+requests,hooks.py,Simple Dictionary Comprehension,16,16,11,C1,original
+requests,compat.py,Import'importlib' module,10,10,0,C1,original
+requests,models.py,Generator Expression,216,216,36,C1,original
+requests,models.py,Simple Dictionary Comprehension,717,717,15,C1,original
+requests,models.py,Generator Function (yield),888,888,12,C1,original
+requests,models.py,Generator Function (yield),835,835,20,C1,original
+requests,__init__.py,'map' call function,96,96,36,C2,original
+requests,status_codes.py,Generator Expression,117,117,25,C1,original
+requests,status_codes.py,Generator Expression,122,122,34,C1,original
+requests,_internal_utils.py,Import're' module,8,8,0,C1,original
+requests,utils.py,Generator Expression,211,211,26,C1,original
+requests,utils.py,Generator Expression,791,791,19,C1,original
+requests,utils.py,Simple Dictionary Comprehension,474,474,18,C1,original
+requests,utils.py,Import're' module,13,13,0,C1,original
+requests,utils.py,Import'struct' module,15,15,0,C1,original
+requests,utils.py,Generator Function (yield),578,578,8,C1,original
+requests,utils.py,Generator Function (yield),587,587,8,C1,original
+requests,utils.py,Generator Function (yield),756,756,8,C1,original
+requests,utils.py,Generator Function (yield),311,311,12,C1,original
+requests,utils.py,Generator Function (yield),575,575,12,C1,original
+requests,exceptions.py,Super Function,24,24,8,C2,original
+requests,structures.py,Super Function,88,88,8,C2,original
+requests,structures.py,Generator Expression,58,58,15,C1,original
+requests,structures.py,Generator Expression,65,65,15,C1,original
+requests,adapters.py,Super Function,141,141,8,C2,original
+requests,adapters.py,Super Function,216,216,8,C2,original
+requests,adapters.py,Simple Dictionary Comprehension,225,225,15,C1,original

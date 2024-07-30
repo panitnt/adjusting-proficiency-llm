@@ -1,0 +1,25 @@
+The file is too large to display all at once. To extract specific code elements, I will use a systematic approach to identify the required elements: Generator Expression, Generator Function (yield), and Simple Dictionary Comprehension.
+
+Let's proceed to search for these elements within the code.
+
+1. **Generator Expressions**:
+2. **Generator Functions (yield)**:
+3. **Simple Dictionary Comprehensions**:
+
+I'll write a script to extract these elements from the provided code.
+
+Here are the extracted code elements from the provided `models.py` file:
+
+### Generator Expressions
+- `(h for h in hook if isinstance(h, Callable))`
+
+### Generator Functions (yield)
+- `yield from self.raw.stream(chunk_size, decode_content=True)`
+- `yield chunk`
+- `yield from lines`
+- `yield pending`
+
+### Simple Dictionary Comprehensions
+- `{attr: getattr(self, attr, None) for attr in self.__attrs__}`
+
+If you need further details or have additional requests, please let me know!

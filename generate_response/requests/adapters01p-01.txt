@@ -1,0 +1,12 @@
+Here are the extracted code elements from the provided Python file:
+
+### Super Function
+```python
+super().__init__()
+super().__init__()
+```
+
+### Simple Dictionary Comprehension
+```python
+return {attr: getattr(self, attr, None) for attr in self.__attrs__}
+```

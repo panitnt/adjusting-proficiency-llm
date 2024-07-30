@@ -1,0 +1,14 @@
+From the provided code, there is a single instance of a simple dictionary comprehension:
+
+```python
+return {event: [] for event in HOOKS}
+```
+
+This line corresponds to the `default_hooks` function:
+
+```python
+def default_hooks():
+    return {event: [] for event in HOOKS}
+```
+
+Would you like further details or any additional elements extracted from this code?

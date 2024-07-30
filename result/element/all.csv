@@ -1,0 +1,61 @@
+i,Class,unique_element_sort
+7024,map' call function,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']"
+7261,Import're' module,"['Function with Simple argument', 'Generator Expression', 'Return', 'Simple Assignment', 'Simple If statements']"
+8337,Simple Dictionary Comprehension,"['Return', 'Simple Assignment', 'Simple Atributte', 'Simple Dictionary', 'Simple For Loop']"
+8198,Super Function,['Simple Atributte']
+8199,Super Function,['Simple Atributte']
+5710,Import're' module,[nan]
+6295,Import'importlib' module,"['Exception --> try/except', 'For Loop with 1 Tuples to iterate', 'Function', ""Import with 'as' extension"", 'Return', 'Simple Assignment', 'Simple If statements', 'Simple Tuple', ""pass' statement""]"
+5465,Generator Function (yield),"['Return', 'Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']"
+5466,Generator Function (yield),"['Return', 'Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']"
+5467,Generator Function (yield),"['Return', 'Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List', 'Simple Tuple']"
+5264,Simple List Comprehension,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']"
+5123,Super Function,"['Return', 'Simple Atributte']"
+5124,Super Function,"['Return', 'Simple Atributte']"
+5125,Super Function,"['Return', 'Simple Atributte']"
+7960,Super Function,['Simple Atributte']
+6259,Simple Dictionary Comprehension,"['Return', 'Simple Assignment', 'Simple Dictionary', 'Simple For Loop', 'Simple List']"
+6606,Generator Expression,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple If statements', 'Simple List']"
+6996,Generator Function (yield),"['Generator Function (yield)', 'Simple For Loop']"
+6997,Generator Function (yield),"['Generator Function (yield)', 'Simple For Loop']"
+6607,Simple Dictionary Comprehension,"['Return', 'Simple Assignment', 'Simple Atributte', 'Simple Dictionary', 'Simple For Loop']"
+6250,Generator Function (yield),['Return']
+6251,Generator Function (yield),['Return']
+6021,List Comprehension with 1If statements,"['For Loop with Tuple as name', 'Simple Assignment', 'Simple Atributte', 'Simple If statements', 'Simple List', 'Simple Tuple']"
+6022,List Comprehension with 1If statements,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple If statements', 'Simple List']"
+6024,Simple Dictionary Comprehension,"['Simple Assignment', 'Simple Atributte', 'Simple Dictionary', 'Simple For Loop']"
+6023,Simple List Comprehension,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']"
+7171,Generator Expression,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']"
+7172,Generator Expression,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']"
+8041,Generator Expression,"['For Loop with Tuple as name', 'Return', 'Simple Assignment', 'Simple Atributte', 'Simple List', 'Simple Tuple']"
+8042,Generator Expression,"['For Loop with Tuple as name', 'Return', 'Simple Assignment', 'Simple Atributte', 'Simple List', 'Simple Tuple']"
+8015,Super Function,['Simple Atributte']
+7513,Generator Expression,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']"
+7514,Generator Expression,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple If statements', 'Simple List']"
+7955,Generator Function (yield),['Return']
+7956,Generator Function (yield),['Return']
+7957,Generator Function (yield),['Return']
+7958,Generator Function (yield),['Return']
+7959,Generator Function (yield),['Return']
+7679,Import're' module,[nan]
+7681,Import'struct' module,[nan]
+7515,Simple Dictionary Comprehension,"['Simple Assignment', 'Simple Atributte', 'Simple Dictionary', 'Simple For Loop']"
+724,Generator Function (yield),"['For Loop with 1 List to iterate', 'Generator Function (yield)', 'Simple Atributte', 'Simple List', 'Simple Tuple']"
+4714,Simple List Comprehension,"['For Loop with Tuple as name', 'Simple Assignment', 'Simple Atributte', 'Simple List', 'Simple Tuple', 'Simplified incremental Assignment with increase amount']"
+2931,Generator Expression,"['For Loop with 1 List to iterate', 'Simple Assignment', 'Simple Atributte', 'Simple List']"
+2932,Generator Expression,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']"
+2933,Generator Expression,"['Simple Assignment', 'Simple For Loop', 'Simple If statements', ""assert' exception"", ""break' statement""]"
+2934,Generator Expression,"['Simple Assignment', 'Simple For Loop', 'Simple If statements', ""assert' exception"", ""break' statement""]"
+2935,Generator Expression,"['Simple Assignment', 'Simple For Loop', 'Simple If statements', ""assert' exception"", ""break' statement""]"
+2936,Generator Expression,"['For Loop with Tuple as name', 'Simple Assignment', 'Simple Atributte', 'Simple List', 'Simple Tuple']"
+2937,Generator Expression,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List', ""range' call function""]"
+2938,Generator Expression,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List', ""assert' exception""]"
+2939,Generator Expression,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List', ""assert' exception""]"
+4048,Import'pickle' module,[nan]
+4049,Import're' module,[nan]
+2928,Simple List Comprehension,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']"
+2929,Simple List Comprehension,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']"
+414,Simple Dictionary Comprehension,"['Simple Assignment', 'Simple Atributte', 'Simple Dictionary', 'Simple For Loop']"
+4514,Generator Function (yield),"[""pass' statement""]"
+823,Super Function,['Simple Atributte']
+824,Super Function,['Simple Atributte']

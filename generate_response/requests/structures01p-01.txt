@@ -1,0 +1,16 @@
+Here are the code elements extracted from the provided file `structures.py`:
+
+### Generator Expressions
+```python
+return (casedkey for casedkey, mappedvalue in self._store.values())
+```
+```python
+return ((lowerkey, keyval[1]) for (lowerkey, keyval) in self._store.items())
+```
+
+### Super Function
+```python
+super().__init__()
+```
+
+If you need further assistance, feel free to ask!

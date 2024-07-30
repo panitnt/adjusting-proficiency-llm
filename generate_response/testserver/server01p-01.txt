@@ -1,0 +1,6 @@
+I have extracted the lines containing the `super` function from the provided file `server.py`. Here are the lines found:
+
+1. `super().__init__()`
+2. `super().__init__(`
+
+If you need further analysis or additional code elements to be extracted, feel free to let me know!

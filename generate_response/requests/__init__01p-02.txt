@@ -1,0 +1,25 @@
+The code you are interested in refactoring is the `cryptography_version = list(map(int, cryptography_version.split(".")))` line. To replace it with code that uses only A1-B2 competency level, we'll break it down into simpler steps.
+
+### Original Code:
+```python
+cryptography_version = list(map(int, cryptography_version.split(".")))
+```
+
+### Refactored Code:
+```python
+cryptography_version_parts = cryptography_version.split(".")
+cryptography_version = []
+for part in cryptography_version_parts:
+    cryptography_version.append(int(part))
+```
+
+### Reason for the Change:
+The original code uses the `map` function, which might be considered advanced for A1-B2 competency level. The refactored code breaks the task into more explicit and simpler steps:
+1. Splitting the version string into parts.
+2. Initializing an empty list.
+3. Looping through each part of the split version string.
+4. Converting each part to an integer and appending it to the list.
+
+This approach avoids the use of higher-order functions and should be more understandable for someone at an A1-B2 competency level in Python.
+
+Would you like me to apply this change to the entire `__init__.py` file and provide the modified code?

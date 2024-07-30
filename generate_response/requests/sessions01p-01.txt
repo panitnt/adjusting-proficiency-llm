@@ -1,0 +1,18 @@
+Here are the extracted code elements from the provided `sessions.py` file:
+
+### Generator Function (yield)
+- `yield req`
+- `yield resp`
+
+### List Comprehension with If statements
+- `none_keys = [k for (k, v) in merged_setting.items() if v is None]`
+- `keys_to_move = [k for k in self.adapters if len(k) < len(prefix)]`
+
+### Simple Dictionary Comprehension
+- `state = {attr: getattr(self, attr, None) for attr in self.__attrs__}`
+
+### Simple List Comprehension
+- `none_keys = [k for (k, v) in merged_setting.items() if v is None]`
+- `history = [resp for resp in gen]`
+
+If you need further assistance or additional elements, please let me know!

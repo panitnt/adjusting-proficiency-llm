@@ -1,0 +1,41 @@
+Here are the generator expressions found in the provided Python file:
+
+- `req = requests.Request("POST", httpbin("post"), data=(b"x" for x in range(1)))`
+- `warnings_category = tuple(item.category.__name__ for item in warning_records)`
+- `assert all(isinstance(chunk, str) for chunk in chunks)`
+- `assert all(isinstance(chunk, str) for chunk in chunks)`
+- `assert all(len(chunk) == 1 for chunk in chunks)`
+- `data = (i for i in [b"a", b"b", b"c"])`
+- `keyset = frozenset(lowerkey for lowerkey, v in cid.lower_items())`
+- `assert frozenset(i[0] for i in cid.items()) == keyset`
+- `assert frozenset(i[0] for i in cid.items()) == keyset`
+
+
+The following code elements were found in the `test_requests.py` file:
+
+- **Import 'pickle' module:**
+  - `import pickle`
+  
+- **Import 're' module:**
+  - `import re`
+
+If you need further assistance, feel free to ask!
+
+
+It looks like the content of the file is quite extensive. I'll parse through it to identify the specific code elements you requested: 
+
+1. **List Comprehension with `if` statements**
+2. **Simple List Comprehension**
+
+I will now extract these elements from the content.
+
+From the provided `test_requests.py` file, I found the following list comprehensions:
+
+### Simple List Comprehensions:
+- `urls = [r.url for r in resp.history]`
+- `req_urls = [r.request.url for r in resp.history]`
+
+### List Comprehensions with `if` Statements:
+None were found in the provided code.
+
+If you need further assistance or another type of code element extracted, please let me know!

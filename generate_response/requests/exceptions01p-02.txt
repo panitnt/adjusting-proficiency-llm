@@ -1,0 +1,65 @@
+Sure! Here is the original code and the revised version without using the `super` function but maintaining the same functionality at an A1-B2 competency level.
+
+### Original Code:
+```python
+class RequestException(IOError):
+    """There was an ambiguous exception that occurred while handling your
+    request.
+    """
+
+    def __init__(self, *args, **kwargs):
+        """Initialize RequestException with `request` and `response` objects."""
+        response = kwargs.pop("response", None)
+        self.response = response
+        self.request = kwargs.pop("request", None)
+        if response is not None and not self.request and hasattr(response, "request"):
+            self.request = self.response.request
+        super().__init__(*args, **kwargs)
+
+class JSONDecodeError(InvalidJSONError, CompatJSONDecodeError):
+    """Couldn't decode the text into json"""
+
+    def __init__(self, *args, **kwargs):
+        """
+        Construct the JSONDecodeError instance first with all
+        args. Then use it's args to construct the IOError so that
+        the json specific args aren't used as IOError specific args
+        and the error message from JSONDecodeError is preserved.
+        """
+        CompatJSONDecodeError.__init__(self, *args)
+        InvalidJSONError.__init__(self, *self.args, **kwargs)
+```
+
+### Revised Code:
+```python
+class RequestException(IOError):
+    """There was an ambiguous exception that occurred while handling your
+    request.
+    """
+
+    def __init__(self, *args, **kwargs):
+        """Initialize RequestException with `request` and `response` objects."""
+        response = kwargs.pop("response", None)
+        self.response = response
+        self.request = kwargs.pop("request", None)
+        if response is not None and not self.request and hasattr(response, "request"):
+            self.request = self.response.request
+        IOError.__init__(self, *args, **kwargs)
+
+class JSONDecodeError(InvalidJSONError, CompatJSONDecodeError):
+    """Couldn't decode the text into json"""
+
+    def __init__(self, *args, **kwargs):
+        """
+        Construct the JSONDecodeError instance first with all
+        args. Then use it's args to construct the IOError so that
+        the json specific args aren't used as IOError specific args
+        and the error message from JSONDecodeError is preserved.
+        """
+        CompatJSONDecodeError.__init__(self, *args)
+        InvalidJSONError.__init__(self, *self.args, **kwargs)
+```
+
+### Reason for Changes:
+- The `super()` function provides a cleaner and more concise way to call a method from a parent class, especially in multiple inheritance scenarios. However, at the A1-B2 competency level, the `super()` function may be less familiar and more difficult to understand.
+- Replacing `super()` with direct parent class references (`IOError.__init__(self, *args, **kwargs)` and similarly for `CompatJSONDecodeError` and `InvalidJSONError`) maintains the functionality while making the code more explicit and straightforward. This approach is more suitable for beginners who might not be comfortable with the `super()` function and multiple inheritance nuances.

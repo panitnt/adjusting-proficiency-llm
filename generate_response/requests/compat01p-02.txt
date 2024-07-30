@@ -1,0 +1,84 @@
+Certainly! Here is the plan to remove the `importlib` module and replace its usage with equivalent functionality:
+
+**Original Code:**
+```python
+import importlib
+```
+
+We will remove this line and update the code where `importlib` is used. Let's identify where `importlib` is used in the file.
+
+I will first read through the file to find all usages of `importlib`.
+
+Let's read and analyze the entire content to identify the changes needed.
+
+**Original Code:**
+```python
+import importlib
+```
+
+**Usages of `importlib` in the function `_resolve_char_detection`:**
+```python
+def _resolve_char_detection():
+    """Find supported character detection libraries."""
+    chardet = None
+    for lib in ("chardet", "charset_normalizer"):
+        if chardet is None:
+            try:
+                chardet = importlib.import_module(lib)
+            except ImportError:
+                pass
+    return chardet
+
+chardet = _resolve_char_detection()
+```
+
+**Fixed Code:**
+Replace the usage of `importlib` with a more basic approach to dynamically import modules:
+```python
+def _resolve_char_detection():
+    """Find supported character detection libraries."""
+    chardet = None
+    for lib in ("chardet", "charset_normalizer"):
+        if chardet is None:
+            try:
+                if lib == "chardet":
+                    import chardet as lib_module
+                elif lib == "charset_normalizer":
+                    import charset_normalizer as lib_module
+                chardet = lib_module
+            except ImportError:
+                pass
+    return chardet
+
+chardet = _resolve_char_detection()
+```
+
+**Explanation:**
+1. **Original Code:**
+   ```python
+   import importlib
+   ```
+   - This imports the `importlib` module to dynamically import other modules.
+
+2. **Fixed Code:**
+   ```python
+   def _resolve_char_detection():
+       """Find supported character detection libraries."""
+       chardet = None
+       for lib in ("chardet", "charset_normalizer"):
+           if chardet is None:
+               try:
+                   if lib == "chardet":
+                       import chardet as lib_module
+                   elif lib == "charset_normalizer":
+                       import charset_normalizer as lib_module
+                   chardet = lib_module
+               except ImportError:
+                   pass
+       return chardet
+
+   chardet = _resolve_char_detection()
+   ```
+   - Instead of using `importlib.import_module`, this code uses direct import statements within a conditional structure to achieve the same dynamic import functionality.
+
+The change simplifies the dynamic import process by using basic `import` statements, making it suitable for an A1-B2 competency level, as it avoids the use of the more advanced `importlib` module.

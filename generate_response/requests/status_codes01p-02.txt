@@ -1,0 +1,41 @@
+Here are the original and replaced codes along with explanations for the changes made to remove the generator expressions while keeping the functionality using a simpler coding style.
+
+### Original Code 1:
+```python
+names = ", ".join(f"``{n}``" for n in _codes[code])
+```
+
+### Fixed Code 1:
+```python
+names_list = []
+for n in _codes[code]:
+    names_list.append(f"``{n}``")
+names = ", ".join(names_list)
+```
+
+### Explanation:
+- **Original Code:** Uses a generator expression to create a string by joining elements with a comma.
+- **Fixed Code:** Uses a `for` loop to iterate over `_codes[code]`, appending formatted strings to a list, and then joins the list elements into a single string.
+
+---
+
+### Original Code 2:
+```python
+__doc__ + "\\n" + "\\n".join(doc(code) for code in sorted(_codes))
+```
+
+### Fixed Code 2:
+```python
+doc_list = []
+for code in sorted(_codes):
+    doc_list.append(doc(code))
+__doc__ + "\\n" + "\\n".join(doc_list)
+```
+
+### Explanation:
+- **Original Code:** Uses a generator expression to join the results of the `doc(code)` function for each `code` in `sorted(_codes)`.
+- **Fixed Code:** Uses a `for` loop to iterate over `sorted(_codes)`, appending the results of `doc(code)` to a list, and then joins the list elements into a single string.
+
+---
+
+These changes replace the generator expressions with `for` loops and list operations, which are more straightforward and easier to understand for someone at the A1-B2 competency level. This helps in maintaining the functionality while simplifying the code structure.

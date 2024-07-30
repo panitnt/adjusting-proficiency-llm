@@ -1,0 +1,5 @@
+Here is the extracted line from the `auth.py` file containing the import of the `re` module:
+
+```python
+import re
+```
