@@ -1,9 +1,9 @@
-,Class,unique_element_sort_tuple,Count
-6,Generator Expression,"('Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List')",4
-7,Generator Expression,"('Simple Assignment', 'Simple For Loop', 'Simple If statements', ""assert' exception"", ""break' statement"")",3
-3,Generator Expression,"('Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple If statements', 'Simple List')",2
-4,Generator Expression,"('Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List', ""assert' exception"")",2
-1,Generator Expression,"('For Loop with Tuple as name', 'Return', 'Simple Assignment', 'Simple Atributte', 'Simple List', 'Simple Tuple')",2
-0,Generator Expression,"('For Loop with 1 List to iterate', 'Simple Assignment', 'Simple Atributte', 'Simple List')",1
-5,Generator Expression,"('Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List', ""range' call function"")",1
-2,Generator Expression,"('For Loop with Tuple as name', 'Simple Assignment', 'Simple Atributte', 'Simple List', 'Simple Tuple')",1
+,Class,unique_element_sort_tuple,score_list_tuple,Count
+6,Generator Expression,"('Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List')","(1.0, 1.0, 1.0, 2.0)",4
+7,Generator Expression,"('Simple Assignment', 'Simple For Loop', 'Simple If statements', ""assert' exception"", ""break' statement"")","(1.0, 1.0, 1.0, 3.0, 4.0)",3
+3,Generator Expression,"('Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple If statements', 'Simple List')","(1.0, 1.0, 1.0, 1.0, 2.0)",2
+4,Generator Expression,"('Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List', ""assert' exception"")","(1.0, 1.0, 1.0, 2.0, 4.0)",2
+1,Generator Expression,"('For Loop with Tuple as name', 'Return', 'Simple Assignment', 'Simple Atributte', 'Simple List', 'Simple Tuple')","(1.0, 1.0, 1.0, 1.0, 2.0, 2.0)",2
+0,Generator Expression,"('For Loop with 1 List to iterate', 'Simple Assignment', 'Simple Atributte', 'Simple List')","(1.0, 1.0, 2.0, 2.0)",1
+5,Generator Expression,"('Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List', ""range' call function"")","(1.0, 1.0, 1.0, 2.0, 2.0)",1
+2,Generator Expression,"('For Loop with Tuple as name', 'Simple Assignment', 'Simple Atributte', 'Simple List', 'Simple Tuple')","(1.0, 1.0, 1.0, 2.0, 2.0)",1

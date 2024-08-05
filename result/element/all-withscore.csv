@@ -1,0 +1,61 @@
+i,Class,unique_element_sort,score_list
+7024,map' call function,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']","[1.0, 1.0, 1.0, 2.0]"
+7261,Import're' module,"['Function with Simple argument', 'Generator Expression', 'Return', 'Simple Assignment', 'Simple If statements']","[1.0, 1.0, 1.0, 1.0, 5.0]"
+8337,Simple Dictionary Comprehension,"['Return', 'Simple Assignment', 'Simple Atributte', 'Simple Dictionary', 'Simple For Loop']","[1.0, 1.0, 1.0, 2.0, 2.0]"
+8198,Super Function,['Simple Atributte'],[2.0]
+8199,Super Function,['Simple Atributte'],[2.0]
+5710,Import're' module,[nan],[nan]
+6295,Import'importlib' module,"['Exception --> try/except', 'For Loop with 1 Tuples to iterate', 'Function', ""Import with 'as' extension"", 'Return', 'Simple Assignment', 'Simple If statements', 'Simple Tuple', ""pass' statement""]","[1.0, 1.0, 1.0, 1.0, 1.0, 2.0, 3.0, 3.0, 3.0]"
+5465,Generator Function (yield),"['Return', 'Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']","[1.0, 1.0, 1.0, 1.0, 2.0]"
+5466,Generator Function (yield),"['Return', 'Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']","[1.0, 1.0, 1.0, 1.0, 2.0]"
+5467,Generator Function (yield),"['Return', 'Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List', 'Simple Tuple']","[1.0, 1.0, 1.0, 1.0, 1.0, 2.0]"
+5264,Simple List Comprehension,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']","[1.0, 1.0, 1.0, 2.0]"
+5123,Super Function,"['Return', 'Simple Atributte']","[1.0, 2.0]"
+5124,Super Function,"['Return', 'Simple Atributte']","[1.0, 2.0]"
+5125,Super Function,"['Return', 'Simple Atributte']","[1.0, 2.0]"
+7960,Super Function,['Simple Atributte'],[2.0]
+6259,Simple Dictionary Comprehension,"['Return', 'Simple Assignment', 'Simple Dictionary', 'Simple For Loop', 'Simple List']","[1.0, 1.0, 1.0, 1.0, 2.0]"
+6606,Generator Expression,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple If statements', 'Simple List']","[1.0, 1.0, 1.0, 1.0, 2.0]"
+6996,Generator Function (yield),"['Generator Function (yield)', 'Simple For Loop']","[1.0, 5.0]"
+6997,Generator Function (yield),"['Generator Function (yield)', 'Simple For Loop']","[1.0, 5.0]"
+6607,Simple Dictionary Comprehension,"['Return', 'Simple Assignment', 'Simple Atributte', 'Simple Dictionary', 'Simple For Loop']","[1.0, 1.0, 1.0, 2.0, 2.0]"
+6250,Generator Function (yield),['Return'],[1.0]
+6251,Generator Function (yield),['Return'],[1.0]
+6021,List Comprehension with 1If statements,"['For Loop with Tuple as name', 'Simple Assignment', 'Simple Atributte', 'Simple If statements', 'Simple List', 'Simple Tuple']","[1.0, 1.0, 1.0, 1.0, 2.0, 2.0]"
+6022,List Comprehension with 1If statements,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple If statements', 'Simple List']","[1.0, 1.0, 1.0, 1.0, 2.0]"
+6024,Simple Dictionary Comprehension,"['Simple Assignment', 'Simple Atributte', 'Simple Dictionary', 'Simple For Loop']","[1.0, 1.0, 2.0, 2.0]"
+6023,Simple List Comprehension,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']","[1.0, 1.0, 1.0, 2.0]"
+7171,Generator Expression,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']","[1.0, 1.0, 1.0, 2.0]"
+7172,Generator Expression,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']","[1.0, 1.0, 1.0, 2.0]"
+8041,Generator Expression,"['For Loop with Tuple as name', 'Return', 'Simple Assignment', 'Simple Atributte', 'Simple List', 'Simple Tuple']","[1.0, 1.0, 1.0, 1.0, 2.0, 2.0]"
+8042,Generator Expression,"['For Loop with Tuple as name', 'Return', 'Simple Assignment', 'Simple Atributte', 'Simple List', 'Simple Tuple']","[1.0, 1.0, 1.0, 1.0, 2.0, 2.0]"
+8015,Super Function,['Simple Atributte'],[2.0]
+7513,Generator Expression,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']","[1.0, 1.0, 1.0, 2.0]"
+7514,Generator Expression,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple If statements', 'Simple List']","[1.0, 1.0, 1.0, 1.0, 2.0]"
+7955,Generator Function (yield),['Return'],[1.0]
+7956,Generator Function (yield),['Return'],[1.0]
+7957,Generator Function (yield),['Return'],[1.0]
+7958,Generator Function (yield),['Return'],[1.0]
+7959,Generator Function (yield),['Return'],[1.0]
+7679,Import're' module,[nan],[nan]
+7681,Import'struct' module,[nan],[nan]
+7515,Simple Dictionary Comprehension,"['Simple Assignment', 'Simple Atributte', 'Simple Dictionary', 'Simple For Loop']","[1.0, 1.0, 2.0, 2.0]"
+724,Generator Function (yield),"['For Loop with 1 List to iterate', 'Generator Function (yield)', 'Simple Atributte', 'Simple List', 'Simple Tuple']","[1.0, 1.0, 2.0, 2.0, 5.0]"
+4714,Simple List Comprehension,"['For Loop with Tuple as name', 'Simple Assignment', 'Simple Atributte', 'Simple List', 'Simple Tuple', 'Simplified incremental Assignment with increase amount']","[1.0, 1.0, 1.0, 2.0, 2.0, 2.0]"
+2931,Generator Expression,"['For Loop with 1 List to iterate', 'Simple Assignment', 'Simple Atributte', 'Simple List']","[1.0, 1.0, 2.0, 2.0]"
+2932,Generator Expression,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']","[1.0, 1.0, 1.0, 2.0]"
+2933,Generator Expression,"['Simple Assignment', 'Simple For Loop', 'Simple If statements', ""assert' exception"", ""break' statement""]","[1.0, 1.0, 1.0, 3.0, 4.0]"
+2934,Generator Expression,"['Simple Assignment', 'Simple For Loop', 'Simple If statements', ""assert' exception"", ""break' statement""]","[1.0, 1.0, 1.0, 3.0, 4.0]"
+2935,Generator Expression,"['Simple Assignment', 'Simple For Loop', 'Simple If statements', ""assert' exception"", ""break' statement""]","[1.0, 1.0, 1.0, 3.0, 4.0]"
+2936,Generator Expression,"['For Loop with Tuple as name', 'Simple Assignment', 'Simple Atributte', 'Simple List', 'Simple Tuple']","[1.0, 1.0, 1.0, 2.0, 2.0]"
+2937,Generator Expression,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List', ""range' call function""]","[1.0, 1.0, 1.0, 2.0, 2.0]"
+2938,Generator Expression,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List', ""assert' exception""]","[1.0, 1.0, 1.0, 2.0, 4.0]"
+2939,Generator Expression,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List', ""assert' exception""]","[1.0, 1.0, 1.0, 2.0, 4.0]"
+4048,Import'pickle' module,[nan],[nan]
+4049,Import're' module,[nan],[nan]
+2928,Simple List Comprehension,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']","[1.0, 1.0, 1.0, 2.0]"
+2929,Simple List Comprehension,"['Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple List']","[1.0, 1.0, 1.0, 2.0]"
+414,Simple Dictionary Comprehension,"['Simple Assignment', 'Simple Atributte', 'Simple Dictionary', 'Simple For Loop']","[1.0, 1.0, 2.0, 2.0]"
+4514,Generator Function (yield),"[""pass' statement""]",[3.0]
+823,Super Function,['Simple Atributte'],[2.0]
+824,Super Function,['Simple Atributte'],[2.0]

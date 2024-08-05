@@ -1,3 +1,3 @@
-,Class,unique_element_sort_tuple,Count
-19,List Comprehension with 1If statements,"('For Loop with Tuple as name', 'Simple Assignment', 'Simple Atributte', 'Simple If statements', 'Simple List', 'Simple Tuple')",1
-20,List Comprehension with 1If statements,"('Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple If statements', 'Simple List')",1
+,Class,unique_element_sort_tuple,score_list_tuple,Count
+19,List Comprehension with 1If statements,"('For Loop with Tuple as name', 'Simple Assignment', 'Simple Atributte', 'Simple If statements', 'Simple List', 'Simple Tuple')","(1.0, 1.0, 1.0, 1.0, 2.0, 2.0)",1
+20,List Comprehension with 1If statements,"('Simple Assignment', 'Simple Atributte', 'Simple For Loop', 'Simple If statements', 'Simple List')","(1.0, 1.0, 1.0, 1.0, 2.0)",1

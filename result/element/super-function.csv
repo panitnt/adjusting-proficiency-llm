@@ -1,3 +1,3 @@
-,Class,unique_element_sort_tuple,Count
-27,Super Function,"('Simple Atributte',)",6
-26,Super Function,"('Return', 'Simple Atributte')",3
+,Class,unique_element_sort_tuple,score_list_tuple,Count
+27,Super Function,"('Simple Atributte',)","(2.0,)",6
+26,Super Function,"('Return', 'Simple Atributte')","(1.0, 2.0)",3
