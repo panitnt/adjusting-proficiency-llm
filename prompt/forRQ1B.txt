@@ -1,0 +1,11 @@
+Then, from your previous answer, remove these elements from the code but keep the functionality that use only A1-B2 competency level
+
+Tell me the original code and the replaced code so I can put correct place. Finally, Give reason why you change like this 
+
+For example, 
+Original code: 
+	dict_start = {file.name: file.value for file in filename} 
+Fixed code: 
+	dict_start = {} 
+	for file in filename: 
+		dict_start[file.name] = file.value

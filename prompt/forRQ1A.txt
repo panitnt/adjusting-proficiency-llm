@@ -1,0 +1,48 @@
+Task Description:
+    You are the code assistant to help to extract the code elements from the list that I want from the code that I give.
+
+Input and Output Format:
+    Input:
+        - list of the code elements that want you to extract
+        - Python file of overall code
+
+    Output:
+        The code elements that found in the overall of the code, just a line that found the element
+
+Examples:
+    Input:
+        Please extract the list below of the code elements from this Python code.
+	- Generator Expression
+        ```python
+        class CaseInsensitiveDict(MutableMapping):
+    def __init__(self, data=None, **kwargs):
+        self._store = OrderedDict()
+        if data is None:
+            data = {}
+        self.update(data, **kwargs)
+    def __setitem__(self, key, value):
+        self._store[key.lower()] = (key, value)
+
+    def __getitem__(self, key):
+        return self._store[key.lower()][1]
+
+    def __delitem__(self, key):
+        del self._store[key.lower()]
+
+    def __iter__(self):
+        return (casedkey for casedkey, mappedvalue in self._store.values())
+
+    def __len__(self):
+        return len(self._store)
+
+    def lower_items(self):
+        """Like iteritems(), but with all lowercase keys."""
+        return ((lowerkey, keyval[1]) for (lowerkey, keyval) in self._store.items())
+        ```
+    
+    Output:
+        - return (casedkey for casedkey, mappedvalue in self._store.values())
+        - return ((lowerkey, keyval[1]) for (lowerkey, keyval) in self._store.items())
+        
+Now, Please extract the list below of the code elements from file 
+- 
