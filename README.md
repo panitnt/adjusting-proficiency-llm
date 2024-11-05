@@ -17,7 +17,7 @@ git clone https://github.com/psf/requests.git Data/requests
 Can look the ChatGPT response in `/ChatGPT_response`
 
 ### Data Summary
-Can look in the excel file `request-data-table.xlsx`
+Can look in the excel file `request-data-table.xlsx` or from [this link](https://docs.google.com/spreadsheets/d/1px5YnVHgK_BBj-M66L4PQTcTG6jCtYO1t27kI919Y1U/edit?usp=sharing)
 
 - Data from the pycefr tools 
   - DC-c-level-pycefr:original
