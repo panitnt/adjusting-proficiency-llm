@@ -1,0 +1,5 @@
+From the provided code, there is a single instance of a simple dictionary comprehension:
+
+```python
+return {event: [] for event in HOOKS}
+```

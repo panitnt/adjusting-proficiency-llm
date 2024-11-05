@@ -13,7 +13,6 @@ Here are the lines containing generator functions (yield) found in the file `uti
 - `yield rv`
 - `yield rv`
 - `yield string[pos : pos + slice_length]`
-- `Save previous value, yield, and then restore the previous value stored in` (contextual line, not an actual code line with `yield`)
 - `yield`
 
 
